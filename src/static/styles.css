@@ -81,6 +81,16 @@ section h3 {
   color: #333;
 }
 
+.activity-card p strong span {
+  display: inline-block;
+  background-color: #1565c0; /* Strong blue background */
+  color: #ffffff; /* White text */
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
 .activity-card p:last-child {
   margin-top: 10px;
   font-style: italic;
