@@ -91,6 +91,24 @@ section h3 {
   font-weight: bold;
 }
 
+.activity-card p strong span.participant {
+  display: inline-block;
+  background-color: #1565c0; /* Strong blue background */
+  color: #ffffff; /* White text */
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.participant-highlight {
+  background-color: #ffcc80; /* Highlight color for participants */
+  color: #000000; /* Black text */
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
 .activity-card p:last-child {
   margin-top: 10px;
   font-style: italic;
